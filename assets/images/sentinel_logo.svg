@@ -1,0 +1,62 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 200" width="200" height="200">
+  <defs>
+    <filter id="glow">
+      <feGaussianBlur stdDeviation="2.5" result="coloredBlur"/>
+      <feMerge>
+        <feMergeNode in="coloredBlur"/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
+  </defs>
+
+  <!-- Main Shield Shape - White -->
+  <path d="M100 15 L170 46 L170 102 C170 144 138 170 100 184 C62 170 30 144 30 102 L30 46 Z"
+        fill="white"
+        filter="url(#glow)" />
+
+  <!-- Shield inner shading for depth -->
+  <path d="M100 26 L160 53 L160 102 C160 139 132 162 100 174 C68 162 40 139 40 102 L40 53 Z"
+        fill="rgba(74, 20, 140, 0.08)" />
+
+  <!-- Female Symbol ♀ - Circle -->
+  <circle cx="100" cy="93"
+          r="31"
+          fill="none"
+          stroke="#4A148C"
+          stroke-width="8"
+          stroke-linecap="round" />
+
+  <!-- Female Symbol ♀ - Vertical Line down -->
+  <line x1="100" y1="124"
+        x2="100" y2="155"
+        stroke="#4A148C"
+        stroke-width="8"
+        stroke-linecap="round" />
+
+  <!-- Female Symbol ♀ - Horizontal Cross -->
+  <line x1="82" y1="142"
+        x2="118" y2="142"
+        stroke="#4A148C"
+        stroke-width="8"
+        stroke-linecap="round" />
+
+  <!-- Small heart inside female circle - represents care/protection -->
+  <path d="M100 80 C100 80 88 71 88 79 C88 85 94 90 100 95 C106 90 112 85 112 79 C112 71 100 80 100 80 Z"
+        fill="#4A148C"
+        opacity="0.7" />
+
+  <!-- Shield left wing accent -->
+  <path d="M42 75 L52 70 L52 80 Z"
+        fill="#4A148C"
+        opacity="0.2" />
+
+  <!-- Shield right wing accent -->
+  <path d="M158 75 L148 70 L148 80 Z"
+        fill="#4A148C"
+        opacity="0.2" />
+
+  <!-- Shield bottom tip highlight -->
+  <path d="M95 178 L100 184 L105 178"
+        fill="white"
+        opacity="0.5" />
+</svg>
