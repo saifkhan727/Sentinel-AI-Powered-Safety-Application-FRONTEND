@@ -125,7 +125,7 @@ flutter run
 ## 👨‍💻 Developer
 **Saif Akhtar Khan**
 
-🔗 Backend Repo: https://github.com/saifkhan727/Sentinel-AI-Powered-Women-Safety-Application
+🔗 Backend Repo: https://github.com/saifkhan727/Sentinel-AI-Powered-Women-Safety-Application-BACKEND
 
 ---
 
